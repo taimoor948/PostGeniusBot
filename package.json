@@ -1,0 +1,25 @@
+{
+  "name": "postgenius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.38.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
